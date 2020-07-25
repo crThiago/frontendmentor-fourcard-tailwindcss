@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Four card feature section</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="css/output.css">
+</head>
+<body class="bg-lightgray h-screen">
+  <main class="container">
+    <header class="text-center ">
+      <h1 class="text-4xl">
+        <div class="text-grayishblue font-light">Reliable, efficient delivery</div>
+        <div class="text-darkblue font-bold">Powered by Technology</div>
+      </h1>
+      <h2 class="text-grayishblue text-lg w-2/5 mx-auto">
+        Our Artificial Intelligence powered tools use millions of project data points 
+        to ensure that your project is successful
+      </h2>
+    </header>
+  
+    <section class="grid grid-cols-3 grid-rows-2 gap-8">
+      <article class="row-span-2 self-center px-5 py-8 shadow-lg border-solid border-t-4 border-cyan rounded">
+        <header>
+          <h3 class="font-bold text-darkblue text-3xl">Supervisor</h3>
+        </header>
+        <p class="text-grayishblue">Monitors activity to identify project roadblocks</p>
+        <div>
+          <img class="ml-auto" src="images/icon-supervisor.svg" alt="IMG Supervisor">
+        </div>
+      </article>
+      <article class="px-5 py-8 shadow-lg border-solid border-t-4 border-red rounded">
+        <header>
+          <h3 class="font-bold text-darkblue text-3xl">Team Builder</h3>
+        </header>
+        <p class="text-grayishblue">Scans our talent network to create the optimal team for your project</p>
+        <div>
+          <img class="ml-auto" src="images/icon-team-builder.svg" alt="IMG Tean Builder">
+        </div>
+      </article>
+      <article class="row-span-2 self-center px-5 py-8 shadow-lg border-solid border-t-4 border-blue rounded">
+        <header>
+          <h3 class="font-bold text-darkblue text-3xl">Calculator</h3>
+        </header>
+        <p class="text-grayishblue">Uses data from past projects to provide better delivery estimates</p>
+        <div>
+          <img class="ml-auto" src="images/icon-calculator.svg" alt="IMG Calculator">
+        </div>
+      </article>
+      <article class="px-5 py-8 shadow-lg border-solid border-t-4 border-orange rounded">
+        <header>
+          <h3 class="font-bold text-darkblue text-3xl">Karma</h3>
+        </header>
+        <p class="text-grayishblue">Regularly evaluates our talent to ensure quality</p>
+        <div>
+          <img class="ml-auto" src="images/icon-karma.svg" alt="IMG Karma">
+        </div>
+      </article>
+    </section>
+  </main>
+
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+</html>
