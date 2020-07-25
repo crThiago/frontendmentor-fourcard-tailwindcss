@@ -16,65 +16,123 @@
 
   <link rel="stylesheet" href="css/output.css">
 </head>
-<body class="bg-lightgray h-screen">
-  <main class="container">
-    <header class="text-center ">
-      <h1 class="text-4xl">
+<body class="font-body bg-lightgray h-screen">
+  <div class="container px-8 sm:px-0 flex flex-col lg:h-full justify-around">
+
+    <header class="text-center py-16 lg:py-0">
+      <h1 class="text-xl sm:text-4xl">
         <div class="text-grayishblue font-light">Reliable, efficient delivery</div>
         <div class="text-darkblue font-bold">Powered by Technology</div>
       </h1>
-      <h2 class="text-grayishblue text-lg w-2/5 mx-auto">
+      <h2 class="text-grayishblue text-xs sm:text-md md:w-2/4 mx-auto my-5">
         Our Artificial Intelligence powered tools use millions of project data points 
         to ensure that your project is successful
       </h2>
     </header>
   
-    <section class="grid grid-cols-3 grid-rows-2 gap-8">
-      <article class="row-span-2 self-center px-5 py-8 shadow-lg border-solid border-t-4 border-cyan rounded">
+    <main class="grid sm:grid-cols-2 lg:grid-cols-3 sm:grid-rows-3 lg:grid-rows-2 gap-8">
+      <article class="
+        hover:shadow-md
+        cursor-pointer
+        sm:row-start-2
+        lg:row-span-2
+        lg:self-center
+        w-full
+        p-8
+        shadow-xl
+        border-solid
+        border-t-4
+        border-cyan
+        rounded"
+      >
         <header>
-          <h3 class="font-bold text-darkblue text-3xl">Supervisor</h3>
+          <h3 class="font-bold text-darkblue text-2xl">Supervisor</h3>
         </header>
-        <p class="text-grayishblue">Monitors activity to identify project roadblocks</p>
+        <p class="text-grayishblue mt-4">Monitors activity to identify project roadblocks</p>
         <div>
-          <img class="ml-auto" src="images/icon-supervisor.svg" alt="IMG Supervisor">
+          <img class="ml-auto mt-16 w-16" src="images/icon-supervisor.svg" alt="IMG Supervisor">
         </div>
       </article>
-      <article class="px-5 py-8 shadow-lg border-solid border-t-4 border-red rounded">
+      <article class="
+        hover:shadow-md
+        cursor-pointer
+        sm:col-span-2
+        w-full
+        sm:w-1/2
+        lg:col-span-1
+        lg:w-auto
+        self-end
+        justify-self-center
+        p-8
+        shadow-xl
+        border-solid
+        border-t-4
+        border-red
+        rounded"
+      >
         <header>
-          <h3 class="font-bold text-darkblue text-3xl">Team Builder</h3>
+          <h3 class="font-bold text-darkblue text-2xl">Team Builder</h3>
         </header>
-        <p class="text-grayishblue">Scans our talent network to create the optimal team for your project</p>
+        <p class="text-grayishblue mt-4"> Scans our talent network to create the optimal team for your project</p>
         <div>
-          <img class="ml-auto" src="images/icon-team-builder.svg" alt="IMG Tean Builder">
+          <img class="ml-auto mt-16 w-16" src="images/icon-team-builder.svg" alt="IMG Tean Builder">
         </div>
       </article>
-      <article class="row-span-2 self-center px-5 py-8 shadow-lg border-solid border-t-4 border-blue rounded">
+      <article class="
+        hover:shadow-md
+        cursor-pointer
+        sm:row-start-2
+        lg:row-span-2
+        lg:self-center
+        w-full
+        p-8
+        shadow-xl
+        border-solid
+        border-t-4
+        border-blue
+        rounded"
+      >
         <header>
-          <h3 class="font-bold text-darkblue text-3xl">Calculator</h3>
+          <h3 class="font-bold text-darkblue text-2xl">Calculator</h3>
         </header>
-        <p class="text-grayishblue">Uses data from past projects to provide better delivery estimates</p>
+        <p class="text-grayishblue mt-4"> Uses data from past projects to provide better delivery estimates</p>
         <div>
-          <img class="ml-auto" src="images/icon-calculator.svg" alt="IMG Calculator">
+          <img class="ml-auto mt-16 w-16" src="images/icon-calculator.svg" alt="IMG Calculator">
         </div>
       </article>
-      <article class="px-5 py-8 shadow-lg border-solid border-t-4 border-orange rounded">
+      <article class="
+        hover:shadow-md
+        cursor-pointer
+        sm:col-span-2
+        w-full
+        sm:w-1/2
+        lg:col-span-1
+        lg:w-auto
+        self-start
+        justify-self-center
+        p-8
+        shadow-xl
+        border-solid
+        border-t-4
+        border-orange
+        rounded"
+      >
         <header>
-          <h3 class="font-bold text-darkblue text-3xl">Karma</h3>
+          <h3 class="font-bold text-darkblue text-2xl">Karma</h3>
         </header>
-        <p class="text-grayishblue">Regularly evaluates our talent to ensure quality</p>
+        <p class="text-grayishblue mt-4">Regularly evaluates our talent to ensure quality</p>
         <div>
-          <img class="ml-auto" src="images/icon-karma.svg" alt="IMG Karma">
+          <img class="ml-auto mt-16 w-16" src="images/icon-karma.svg" alt="IMG Karma">
         </div>
       </article>
-    </section>
-  </main>
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+    </main>
+    
+    <footer class="mt-10 mb-5">
+      <p class="attribution font-shadow">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://crthiago.github.io/">Thiago Costa</a>.
+      </p>
+    </footer>
+  </div>
 </body>
 </html>

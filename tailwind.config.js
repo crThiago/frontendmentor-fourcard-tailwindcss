@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin')
+
 module.exports = {
   purge: ['./*.html'],
   theme: {
@@ -25,5 +27,15 @@ module.exports = {
     extends: {}
   },
   variants: {},
-  plugins: [],
+  plugins: [
+    plugin(function({ addUtilities }) {
+      const newUtilities = {
+        '.justify-self-center': {
+          'justify-self': 'center',
+        }
+      }
+
+      addUtilities(newUtilities)
+    })
+  ],
 }
